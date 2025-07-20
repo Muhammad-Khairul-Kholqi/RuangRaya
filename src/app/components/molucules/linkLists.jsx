@@ -7,10 +7,9 @@ export default function LinkLists({ direction = "row" }) {
         <div className={`flex items-start gap-4 ${isRow ? "flex-row" : "flex-col"}`}>
             <LinkItem href="/" label="Home" />
             <LinkItem href="/about" label="About Us" />
-            <LinkItem href="/contact" label="Living" />
-            <LinkItem href="/bedroom" label="Bedroom" />
-            <LinkItem href="/dining" label="Dining" />
-            <LinkItem href="/kitchen" label="Kitchen" />
+            <LinkItem href="/contact" label="Furniture" />
+            <LinkItem href="/contact" label="Popular" />
+            <LinkItem href="/bedroom" label="Contact" />
         </div>
     );
 }
